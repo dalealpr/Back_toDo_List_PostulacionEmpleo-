@@ -6,9 +6,11 @@ Soporta conexión dinámica a dos tipos de bases de datos: **PostgreSQL** y **SQ
 ---
 ## Comandos para arrancar Backend
 DB [SQLite] 
+```bash
 npm run dev:sqlite
 
 DB [PostgresSQL] 
+```bash
 npm run dev:postgres
 
 ## Características principales
