@@ -8,10 +8,12 @@ Soporta conexión dinámica a dos tipos de bases de datos: **PostgreSQL** y **SQ
 DB [SQLite] 
 ```bash
 npm run dev:sqlite
+```
 
 DB [PostgresSQL] 
 ```bash
 npm run dev:postgres
+```
 
 ## Características principales
 
