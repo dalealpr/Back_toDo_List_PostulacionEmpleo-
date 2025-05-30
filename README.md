@@ -22,6 +22,7 @@ npm run dev:postgres
 - ORM Sequelize para manejo y sincronización de modelos con la base de datos.
 - Conexión a base de datos configurable entre PostgreSQL y SQLite.
 - Sincronización automática de modelos con la base de datos usando Sequelize.
+- Joi Validaciones.
 - Carga dinámica de módulos/rutas.
 - CORS configurado para permitir peticiones desde frontend en `http://localhost:4200`.
 
@@ -35,6 +36,7 @@ npm run dev:postgres
 - PostgreSQL (pg)
 - SQLite3
 - Socket.IO
+- Joi
 - cross-env para manejar variables de entorno en scripts npm
 - dotenv para configuración de variables de entorno
 
