@@ -37,6 +37,7 @@ export default class TaskController {
     try {
       const { id } = req.params;
       const data = await this.service.update(id, req.body);
+      req.io.emit('tasksUpdated');
       createResponse(res, 200, data);
     } catch (error) {
       next(error);
